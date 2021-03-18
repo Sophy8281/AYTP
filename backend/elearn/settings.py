@@ -134,12 +134,12 @@ STATICFILES_DIRS = [
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Where we will have our media items stored
-MEDIA_URL = '/media'
+MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-RESR_FRAMEWORK = {
+REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permisions.IsAuthenticated'
+        'rest_framework.permissions.IsAuthenticated'
     ],
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework_simplejwt.authentication.JWTAuthentication'
@@ -153,3 +153,5 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 # File upload permisions for large file sizes
 FILE_UPLOAD_PERMISSIONS=0o640
+
+AUTH_USER_MODEL = 'accounts.UserAccount'
