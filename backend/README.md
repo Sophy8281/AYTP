@@ -19,5 +19,21 @@ Adding newly created applications
 Database configurations
 ![](screenshots/database_config.png).
 
-Other settings in [settings.py](backend/elearn/settings.py)
+Other settings in [settings.py](elearn/settings.py)
 ![](screenshots/other_settings.png).
+
+### Configurations in [elearn/urls.py](elearn/urls.py)
+![](screenshots/urls_elearn.png).
+
+## Testing APIs with Postman
+Creating new user
+![](screenshots/creating_user.JPG).
+
+Output
+![](screenshots/newuser_output.png).
+
+Signing in with the new user credentials
+![](screenshots/sign_in.png).
+
+API output tokens to signing in
+![](screenshots/api_signin_output.png).
