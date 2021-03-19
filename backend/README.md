@@ -26,14 +26,14 @@ Other settings in [settings.py](elearn/settings.py)
 ![](/screenshots/urls_elearn.png).
 
 ## Testing APIs with Postman
-Creating new user
+Creating new user.
 ![](/screenshots/creating_user.JPG).
 
-Output
-![](/screenshots/newuser_output.png).
+Output.
+![](/screenshots/newuser_output.PNG).
 
 Signing in with the new user credentials
-![](/screenshots/sign_in.png).
+![](/screenshots/sign_in.PNG).
 
 API output tokens to signing in
-![](/screenshots/api_signin_output.png).
+![](/screenshots/api_signin_output.PNG).
