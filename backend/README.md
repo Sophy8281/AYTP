@@ -14,26 +14,26 @@ Database used for the application is [Postgres](https://www.enterprisedb.com/dow
 ### Configurations in settings.py
 
 Adding newly created applications
-![](screenshots/installed_apps.png).
+![](/screenshots/installed_apps.png).
 
 Database configurations
-![](screenshots/database_config.png).
+![](/screenshots/database_config.png).
 
 Other settings in [settings.py](elearn/settings.py)
-![](screenshots/other_settings.png).
+![](/screenshots/other_settings.png).
 
 ### Configurations in [elearn/urls.py](elearn/urls.py)
-![](screenshots/urls_elearn.png).
+![](/screenshots/urls_elearn.png).
 
 ## Testing APIs with Postman
 Creating new user
-![](screenshots/creating_user.JPG).
+![](/screenshots/creating_user.JPG).
 
 Output
-![](screenshots/newuser_output.png).
+![](/screenshots/newuser_output.png).
 
 Signing in with the new user credentials
-![](screenshots/sign_in.png).
+![](/screenshots/sign_in.png).
 
 API output tokens to signing in
-![](screenshots/api_signin_output.png).
+![](/screenshots/api_signin_output.png).
