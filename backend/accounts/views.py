@@ -6,7 +6,7 @@ from rest_framework.views import APIView
 from rest_framework import permissions
 
 class SignupView(APIView):
-    permissions_classes = (permissions.AllowAny, )
+    permission_classes = (permissions.AllowAny, )
     
     def post(self, request, format=None):
         data = self.request.data
@@ -21,7 +21,7 @@ class SignupView(APIView):
                 return Response({'error': 'Email already exists'})
             else:
                 if len(password) < 8:
-                    return Response({'error': 'Password must be at least 8 characters!'})
+                    return Response({'error': 'Password must be at least 8 characters long!'})
                 else:
                     user = User.objects.create_user(email=email, name=name, password=password)
                     user.save()
